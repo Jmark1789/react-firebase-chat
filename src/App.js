@@ -10,7 +10,13 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 firebase.initializeApp({
-  // your config
+   apiKey: "AIzaSyBFB9Q4XOneqvePXnHCBwWUk-5QXITjxPM",
+  authDomain: "cit-forum.firebaseapp.com",
+  projectId: "cit-forum",
+  storageBucket: "cit-forum.firebasestorage.app",
+  messagingSenderId: "696896144117",
+  appId: "1:696896144117:web:ac6af5bf2942ac98093bbc",
+  measurementId: "G-J68J1MCRBP"
 })
 
 const auth = firebase.auth();
